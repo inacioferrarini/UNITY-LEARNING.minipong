@@ -304,6 +304,7 @@ GameObject:
   m_Component:
   - component: {fileID: 275109206}
   - component: {fileID: 275109207}
+  - component: {fileID: 275109208}
   m_Layer: 0
   m_Name: PaddleLeft
   m_TagString: Untagged
@@ -378,6 +379,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &275109208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275109205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be21593ab0feccc4aba8a0a03ee3ccca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_speed: 2
+  m_verticalLimitMax: 4.5
+  m_verticalLimitMin: -4.5
+  m_axisName: PaddleLeft
 --- !u!1 &353960483
 GameObject:
   m_ObjectHideFlags: 0
@@ -903,6 +920,7 @@ GameObject:
   m_Component:
   - component: {fileID: 985584679}
   - component: {fileID: 985584680}
+  - component: {fileID: 985584681}
   m_Layer: 0
   m_Name: PaddleRight
   m_TagString: Untagged
@@ -977,6 +995,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &985584681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985584678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be21593ab0feccc4aba8a0a03ee3ccca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_speed: 2
+  m_verticalLimitMax: 4.5
+  m_verticalLimitMin: -4.5
+  m_axisName: PaddleRight
 --- !u!1 &1063949005
 GameObject:
   m_ObjectHideFlags: 0
@@ -1500,7 +1534,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 353960484}
+  - {fileID: 1657990436}
   - {fileID: 1971842449}
   - {fileID: 48293223}
   - {fileID: 62230113}
-  - {fileID: 1657990436}
